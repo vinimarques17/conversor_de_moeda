@@ -13,9 +13,3 @@ elif choose == 'Peso':
     print(f'A cotacão do Peso Argetino hoje é {peso_argentino:.2f}.')
 else:
     print('Digite uma moeda válida')
-
-
-
-# print(f'A cotacão do Dólar hoje é {dolar:.2f}.')
-# print(f'A cotacão do Euro hoje é {euro:.2f}.')
-# print(f'A cotacão do Peso Argetino hoje é {peso_argentino:.2f}.')
