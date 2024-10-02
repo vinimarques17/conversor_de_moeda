@@ -1,11 +1,11 @@
 # Declarando variaveis do escopo
 book_of_coins = {
 
-    'dolar': 5.45,
-    'euro': 6.10,
+    'dolar': 0.18,
+    'euro': 0.17,
     'peso': 177.08,
-    'yen': 0.037,
-    'yuan': 0.78,
+    'iene': 26.51,
+    'yuan': 1.30,
     'franco_suico': 0.16,
     'dolar_canadense': 0.25,
     'rupia_indonesia': 2784.15,
@@ -39,7 +39,7 @@ choose = choose.lower()
 if converter(float(real), choose):
     print(f'A cotação em {choose} resultou em: $ {converter(float(real), choose):.2f}')
 # Print na cotação de todas moedas
-    print('A cotação para cada moeda:')
+    # print('A cotação para cada moeda:')
     # compareCoins(float(real))
 else:
     print('Não foi possível fazer a conversão, moeda inválida.')
